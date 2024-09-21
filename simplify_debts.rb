@@ -8,7 +8,7 @@ class SimplifyDebts
 
   def process
     calculate_debts
-    simplify_debts
+    adjust_debts
   end
 
   private
@@ -37,7 +37,7 @@ class SimplifyDebts
       end
     end
 
-    def simplify_debts
+    def adjust_debts
       members_owed = debt.select { |_, amount| amount < 0 }.to_a
       members_getback = debt.select { |_, amount| amount > 0 }.to_a
 
