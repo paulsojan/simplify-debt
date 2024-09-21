@@ -1,3 +1,3 @@
 ## Ruby program to simplify the debt
 
-To run run: `ruby simplify_debts.rb`
+To run: `ruby simplify_debts.rb`
