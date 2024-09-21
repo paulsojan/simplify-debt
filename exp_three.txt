@@ -1,3 +1,4 @@
 Lunch
 2000
-Deepak 2000
+Deepak 1000
+David 1000

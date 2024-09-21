@@ -22,7 +22,7 @@ class ExpenseCalculator
     def process_files(file)
       file_data = File.readlines(file).map(&:chomp)
 
-      return if file_data.size < 4
+      return if file_data.size <= 2
 
       total_expense = file_data[1].to_i
       members = file_data.size - 2
