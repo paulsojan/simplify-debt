@@ -59,4 +59,4 @@ class SimplifyDebts
 end
 
 files = ['exp_one.txt', 'exp_two.txt', 'exp_three.txt']
-calculator = SimplifyDebts.new(files).process
+SimplifyDebts.new(files).process
