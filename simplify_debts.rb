@@ -1,4 +1,4 @@
-class ExpenseCalculator
+class SimplifyDebts
   attr_reader :files, :debt
 
   def initialize(files)
@@ -59,4 +59,4 @@ class ExpenseCalculator
 end
 
 files = ['exp_one.txt', 'exp_two.txt', 'exp_three.txt']
-calculator = ExpenseCalculator.new(files).process
+calculator = SimplifyDebts.new(files).process
