@@ -1,0 +1,6 @@
+Dinner
+1750
+Paul 1000
+Sam 750
+Deepak 0
+Sumesh 0
